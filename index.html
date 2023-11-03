@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hexstock</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+<body>
+  <section class="header_bar">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg " style="   background-color: #f5f5f5;
+      ;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/images/icons/image-17.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropdown-button">Home<i class="fas fa-chevron-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-user"></i> Profile</a>
+                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropdown-button">Shop<i class="fas fa-chevron-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-user"></i> Profile</a>
+                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropdown-button">Blog<i class="fas fa-chevron-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-user"></i> Profile</a>
+                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropdown-button">Pages<i class="fas fa-chevron-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-user"></i> Profile</a>
+                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropdown-button">Contact<i class="fas fa-chevron-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#"><i class="fas fa-home"></i> Home</a>
+                    <a href="#"><i class="fas fa-user"></i> Profile</a>
+                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="search-box d-flex">
+              <button class="btn-search"> <i class="fas fa-search"></i></button>
+              <input type="text" class="input-search" placeholder="Type to Search...">
+            </div>
+            <span class=" me-2">Search</span>
+            <div class="cart_icon me-1">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <span class="me-2">Cart</span>
+            <div class="cart_icon  me-2">
+              <i class="fas fa-bars" id="hamburgerButton" onclick="toggleMenu()"></i>
+            </div>
+            <ul id="menu" class="hidden">
+              <a href="javascript:void(0)" class="closebtn"  onclick="closeMenu()">&times;</a>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- start slider portion -->
+  <section class="main_slider">
+    <div class="owl-carousel owl-theme">
+      <div class="item slider_img">
+        <img src="/images/slider/image-38.jpg">
+        <div class="slider_text_main">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slider_text">
+                  <h1>Think Different &</h1>
+                  <h1>Do it otherwise</h1>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur
+                    <br>
+                    mutationem consuetudium lectorum.
+                  </p>
+                  <div class="view_more">
+                    <a href="">
+                      <button>DISCOVER NOW</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item slider_img">
+        <img src="/images/slider/image-39.jpg">
+        <div class="slider_text_main">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slider_text">
+                  <h1>Think Different &</h1>
+                  <h1>Do it otherwise</h1>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur
+                    <br>
+                    mutationem consuetudium lectorum.
+                  </p>
+                  <div class="view_more">
+                    <a href="">
+                      <button>DISCOVER NOW</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item slider_img">
+        <img src="/images/slider/image-40.jpg">
+        <div class="slider_text_main">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="slider_text">
+                  <h1>Think Different &</h1>
+                  <h1>Do it otherwise</h1>
+                  <p>Claritas est etiam processus dynamicus, qui sequitur
+                    <br>
+                    mutationem consuetudium lectorum.
+                  </p>
+                  <div class="view_more">
+                    <a href="">
+                      <button>DISCOVER NOW</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of slider portion -->
+
+  <!-- start of service -->
+  <section class="service">
+    <div class="service_box">
+      <div class="services_box">
+        <div class="service_box_sub">
+          <h4>Sunflower Clock
+            <br>
+            Quartz Hands
+          </h4>
+          <div class="view_more_service">
+            <h6>Discover Now</h6>
+          </div>
+        </div>
+        <img src="/images/services/image-6.jpg" alt="">
+      </div>
+      <div class="services_box">
+        <div class="service_box_sub">
+          <h4>Chair Kimi No Isu
+            <br>
+            Project
+          </h4>
+          <div class="view_more_service">
+            <h6>Discover Now</h6>
+          </div>
+        </div>
+        <img src="/images/services/image-7.jpg" alt="">
+      </div>
+      <div class="services_box">
+        <div class="service_box_sub">
+          <h4>
+            Sweeper and Dustpan
+            <br>
+            by Jan Kochanski
+          </h4>
+          <div class="view_more_service">
+            <h6>Discover Now</h6>
+          </div>
+        </div>
+        <img src="/images/services/image-8.jpg" alt="">
+      </div>
+    </div>
+    <div class="padding_div"></div>
+  </section>
+  <!-- end of services -->
+
+
+  <!-- start of trending products -->
+  <section class="trending_product heading">
+    <div class="padding_div"></div>
+    <div class="container">
+      <div class="row">
+        <div class="trending-products">
+          <div class="header_tag">
+            <h1 style="text-align: center" class="text_center">Trending Products</h1>
+            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="padding_div"></div>
+  <section class="product_div">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-20.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+            <div class="product_clip">
+              <div class="clip_one">
+                <p>NEW</p>
+              </div>
+              <div class="clip_two">
+                <p>-16%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+            <div class="product_clip">
+              <div class="clip_one">
+                <p>NEW</p>
+              </div>
+              <div class="clip_two">
+                <p>-16%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+            <div class="product_clip">
+              <div class="clip_one">
+                <p>NEW</p>
+              </div>
+              <div class="clip_two">
+                <p>-16%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+            <div class="product_clip">
+              <div class="clip_one">
+                <p>NEW</p>
+              </div>
+              <div class="clip_two">
+                <p>-16%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3">
+          <div class="product_img">
+            <img src="/images/products/image-27.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6>$96.00 $96.00</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="padding_div"></div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="load_more">
+          <button>LOAD MORE</button>
+        </div>
+      </div>
+    </div>
+    <div class="padding_div"></div>
+  </section>
+  <!-- end of trendinhproducts -->
+
+
+  <!-- start of product essentail -->
+  <section>
+    <div class="product_essential_main">
+      <div class="product_essential_one">
+        <div class="product_essential_contents_one">
+          <h1 class="product_essential_head">Products Essentials</h1>
+          <h6 class="product_essential_subhead">Bottle With Wooden Cork</h6>
+          <p class="product_essential_para">Mirum est notare quam littera gothica, quam nunc putamus <br> parum claram,
+            anteposuerit litterarum formas.</p>
+          <div class="buy_now">
+            <button>BUY NOW / <span style="color: #be864d;">$59.25</span></button>
+          </div>
+        </div>
+        <img style="width: 100%;" src="/images/product-essential/image-4.jpg" alt="">
+      </div>
+      <div class="product_essential_two">
+        <div class="product_essential_contents_two">
+          <h1 class="product_essential_head">Products Furniture</h1>
+          <h6 class="product_essential_subhead">Hauteville Plywood Chair</h6>
+          <p class="product_essential_para">Mirum est notare quam littera gothica, quam nunc putamus <br>parum
+            claram,
+            anteposuerit litterarum formas.</p>
+          <div class="buy_now">
+            <button>BUY NOW / <span style="color: #be864d;">$59.25</span></button>
+          </div>
+        </div>
+        <img style="width: 100%;" src="/images/product-essential/image-5.jpg" alt="">
+      </div>
+    </div>
+    <div class="padding_div"></div>
+  </section>
+  <!-- ens of product essential -->
+
+  <!-- start of saleoff -->
+  <section class="sale_off_main">
+    <div class="container">
+      <div class="row">
+        <div class="trending-products">
+          <div class="header_tag">
+            <h1 style="text-align: center" class="text_center">
+              Sale Off
+            </h1>
+            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="padding_div"></div>
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-6 col-md-2">
+          <div class="sale_off">
+            <img src="/images/products/image-20.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+            </div>
+            <div class="product_clip_sale">
+              <div class="clip_one_sale">
+                <p>NEW</p>
+              </div>
+              <div class="clip_two_sale">
+                <p>-16%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-2">
+          <div class="sale_off">
+            <img src="/images/products/image-21.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+              <div class="product_clip_sale">
+                <div class="clip_one_sale">
+                  <p>NEW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-2">
+          <div class="sale_off">
+            <img src="/images/products/image-22.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+              <div class="product_clip_sale">
+                <div class="clip_one_sale">
+                  <p>NEW</p>
+                </div>
+                <div class="clip_two_sale">
+                  <p>-16%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-2">
+          <div class="sale_off">
+            <img src="/images/products/image-23.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+              <div class="product_clip_sale">
+                <div class="clip_one_sale">
+                  <p>NEW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-2">
+          <div class="sale_off">
+            <img src="/images/products/image-24.jpg">
+            <div class="product_contents">
+              <h6>Wooden container Bowl</h6>
+              <h6 class="price_tag">$96.00 <span class="price_tag_error">$96.00</span></h6>
+              <div class="product_clip_sale">
+                <div class="clip_one_sale">
+                  <p>NEW</p>
+                </div>
+                <div class="clip_two_sale">
+                  <p>-16%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="padding_div"></div>
+  </section>
+  <!-- end of sale off -->
+
+
+  <!-- start of brands-->
+  <section>
+    <div class="padding_div"></div>
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="brands_img">
+            <img src="/images/logos/image-12.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="brands_img">
+            <img src="/images/logos/image-13.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="brands_img">
+            <img src="/images/logos/image-14.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="brands_img">
+            <img src="/images/logos/image-15.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+          <div class="brands_img">
+            <img src="/images/logos/image-16.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="padding_div"></div>
+    <div class="padding_div"></div>
+  </section>
+  <section class="our_blog">
+    <div class="container">
+      <div class="row">
+        <div class="trending-products">
+          <div class="header_tag">
+            <h1 style="text-align: center" class="text_center">
+              Our Blog Posts
+            </h1>
+            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of brands -->
+
+
+  <!-- start of blog -->
+  <section>
+    <div class="padding_div"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="brands_img">
+            <img src="/images/blogs/image-9.jpg" alt="">
+            <div class="blog-para">
+              <h6 class="blog_h1">Anteposuerit litterarum formas.</h1>
+                <p class="blog_p" style="color: #8b9291;"><span>By</span><span style="color:#be864d;"> Shahnewaz
+                    Sakil</span> / September 14, 2017</p>
+                <p class="blog_p2">Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                <div class="blog_button">
+                  <button>READ MORE</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="brands_img">
+            <img src="/images/blogs/image-10.jpg" alt="">
+            <div class="blog-para">
+              <h6 class="blog_h1">Hanging fruit to identify</h1>
+                <p class="blog_p" style="color: #8b9291;"><span>By</span><span style="color:#be864d;"> Shahnewaz
+                    Sakil</span> / September 14, 2017</p>
+                <p class="blog_p2">Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                <div class="blog_button">
+                  <button>READ MORE</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="brands_img">
+            <img src="/images/blogs/image-11.jpg" alt="">
+            <div class="blog-para">
+              <h6 class="blog_h1">The information highway will</h1>
+                <p class="blog_p" style="color: #8b9291;"><span>By</span><span style="color:#be864d;"> Shahnewaz
+                    Sakil</span> / September 14, 2017</p>
+                <p class="blog_p2">Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                <div class="blog_button">
+                  <button>READ MORE</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="padding_div"></div>
+
+      <div class="padding_div"></div>
+      <hr>
+      <div class="padding_div"></div>
+      <div class="padding_div"></div>
+    </div>
+  </section>
+  <!-- end of blogs -->
+
+
+  <!-- start of getinfo -->
+  <section class="get_info">
+    <div class="container">
+      <div class="row">
+        <div class="get_info_head">
+          <div class="header_tag">
+            <h1 class="header_getinfo">
+              Get Discount Info
+            </h1>
+            <p>Subscribe to the Hexstock mailing list to receive updates on new arrivals, special offers and other
+              discount information.</p>
+            <div class="padding_div"></div>
+            <input class="subscribe_div" placeholder="Subscribe to our newsletter" type="type">
+          </div>
+          <div class="padding_div"></div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="load_more">
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+          <div class="padding_div"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of getinfo -->
+  <div class="padding_div"></div>
+
+  <!-- start of footer -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-4">
+          <div class="footer_logo">
+            <img src="/images/footer/image-18.png" alt="">
+            <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas.
+            </p>
+            <ul>
+              <li><i class="fas fa-location-arrow"></i> 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</li>
+              <li><i class="fas fa-envelope-open-text"></i> hello@hexstock.com</li>
+              <li><i class="fas fa-phone-alt"></i> (800) 123 456 789</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-4">
+          <div class="footer_information">
+            <h5>Information</h5>
+            <ul>
+              <li>
+                About Us
+              </li>
+              <li>
+                Careers
+              </li>
+              <li>
+                Delivery Inforamtion
+              </li>
+              <li>
+                Privacy Policy
+              </li>
+              <li>
+                Terms & Condition
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-4">
+          <div class="footer_information">
+            <h5>Customer Service</h5>
+            <ul>
+              <li>
+                Shipping Policy
+              </li>
+              <li>
+                Help & Contact Us
+              </li>
+              <li>
+                Returns & Refunds
+              </li>
+              <li>
+                Online Stores
+              </li>
+              <li>
+                Terms & Conditions
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="border-color:aliceblue ;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 justify-content-center copyright">
+          <p>Copyright © <span>Hexstock</span> all rights reserved. Powered by <span>Hexwhale</span></p>
+        </div>
+        <div class="col-md-6 justify-content-center">
+          <ul class="list_icon">
+            <li><a href=""><i class="fas fa-globe"></i></a></li>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-behance"></i></a></li>
+            <li><a href=""><i class="fas fa-code-branch"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/scriptfont.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    });
+  </script>
+  <script>
+    function toggleMenu() {
+  var menu = document.getElementById("menu");
+  menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+
+function closeMenu() {
+  var menu = document.getElementById("menu");
+  menu.style.display = "none";
+}
+  </script>
+</body>
+
+</html>
